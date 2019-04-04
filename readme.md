@@ -4,7 +4,7 @@
 
 # LAUNCH INSTANCE EC2 - UBUNTU (18.04 LTS)
 
-## Choose Instance ##
+## Choose instance ##
 T1, T2, T3, etc.
 
 ## Configure instance ##
@@ -21,11 +21,11 @@ New or existing.
 
 # LAUNCH #
 
-# Select an existing key pair or create a new key pair
+# SELECT AN EXISTING KEY PAIR OR CREATE A NEW ONE
 * If create:
 Create a key pair name and then download it.
 
-## USE ##
+## Use ##
 
 A new dynamic ip is generated, it is accessed from ssh more easily.
 IP (IPv4 Public IP) --> 000.000.000.000
@@ -41,3 +41,7 @@ All traffic.
 
 ## SSH ## 
 ssh -i ~path/file.pem user@000.000.000.000
+* Chmod the key:
+sudo chmod 400 file.pem
+* Are you sure you want to continue connecting (ECDSA key fingerprint)
+yes
