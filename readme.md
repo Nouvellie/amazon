@@ -1,8 +1,8 @@
 ###### ######
-## NOUVELLIE ##
+# NOUVELLIE
 ###### ######
 
-# LAUNCH INSTANCE EC2
+# LAUNCH INSTANCE EC2 - UBUNTU (18.04 LTS)
 
 ## Choose Instance ##
 T1, T2, T3, etc.
@@ -39,3 +39,5 @@ MYSQL -->  TCP  --> 3306 --> IP
 * Outbound:
 All traffic.
 
+## SSH ## 
+ssh -i ~path/file.pem user@000.000.000.000
