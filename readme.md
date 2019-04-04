@@ -27,7 +27,7 @@ Create a key pair name and then download it.
 
 ## Use ##
 
-A new dynamic ip is generated, it is accessed from ssh more easily.
+A new dynamic ip is generated, it is accessed from ssh more easily. (can be static)
 IP (IPv4 Public IP) --> 000.000.000.000
 
 ## Create a security group ##
