@@ -1,25 +1,25 @@
 ###### ######
-# NOUVELLIE #
+## NOUVELLIE ##
 ###### ######
 
-## LAUNCH INSTANCE EC2 ##
+# LAUNCH INSTANCE EC2
 
-# Choose Instance
+## Choose Instance ##
 T1, T2, T3, etc.
 
-# Configure instance
+## Configure instance ##
 Number of instances, network, subnet, placement group, etc.
 
-# Add storage
+## Add storage ##
 Hdd/sdd settings, delete on termination checkbox.
 
-# Tags
+## Tags ##
 Keys*
 
-# Security groups
+## Security groups ##
 New or existing.
 
-## LAUNCH ##
+# LAUNCH #
 
 # Select an existing key pair or create a new key pair
 * If create:
@@ -30,7 +30,7 @@ Create a key pair name and then download it.
 A new dynamic ip is generated, it is accessed from ssh more easily.
 IP (IPv4 Public IP) --> 000.000.000.000
 
-# Create a security group
+## Create a security group ##
 This one can be used in any instance.
 * Inbound:
 HTTP  -->  TCP  -->  80  --> IP
