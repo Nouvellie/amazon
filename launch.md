@@ -14,3 +14,7 @@ Keys*
 <br><br>
 ## Secerity groups
 New or existing.
+<br><br>
+## Select an existing key pair or create a new one
+* If create:
+Create a key pair name and then download it.
