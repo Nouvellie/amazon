@@ -2,10 +2,6 @@
 # AMAZON
 ###### ######
 
-# SELECT AN EXISTING KEY PAIR OR CREATE A NEW ONE
-* If create:
-Create a key pair name and then download it.
-
 ## Use ##
 
 A new dynamic ip is generated, it is accessed from ssh more easily. (can be static)
