@@ -24,5 +24,5 @@ $ sudo chmod 400 file.pem
 ```
 * Are you sure you want to continue connecting (ECDSA key fingerprint)
 ```
-yes
+$ yes
 ```
