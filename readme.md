@@ -1,5 +1,5 @@
 ###### ######
-# NOUVELLIE
+# AMAZON
 ###### ######
 
 # LAUNCH INSTANCE EC2 - UBUNTU (18.04 LTS)
