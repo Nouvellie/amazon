@@ -1,7 +1,9 @@
 # USE
 
 ## Create a security group
+```
 This one can be used in any instance.
+```
 * Inbound:
 ```
 HTTP  -->  TCP  -->  80  --> IP
@@ -9,12 +11,16 @@ SSH   -->  TCP  -->  22  --> IP
 MYSQL -->  TCP  --> 3306 --> IP
 ```
 * Outbound:
+```
 All traffic.
-<br><br>
+```
 ## Ssh
+* Information:
+```
 A new dynamic ip is generated, it is accessed from ssh more easily. (can be static)
 IP (IPv4 Public IP) --> 000.000.000.000
-
+```
+* Command:
 ```
 $ ssh -i ~path/file.pem user@000.000.000.000
 ```
