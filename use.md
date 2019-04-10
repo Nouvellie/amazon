@@ -2,7 +2,7 @@
 
 ## Create a security group
 ```
-This one can be used in any instance.
+This can be used in any case, but if the associated vpc is deleted the security group will be deleted as well.
 ```
 * Inbound:
 ```
@@ -17,12 +17,12 @@ All traffic.
 ## Ssh
 * Information:
 ```
-A new dynamic ip is generated, it is accessed from ssh more easily. (can be static)
-IP (IPv4 Public IP) --> 000.000.000.000
+A new public ip is generated, which is more easily accessed from ssh. (can be elastic)
+IP (IPv4 Public IP) --> 172.31.0.0.
 ```
 * Command:
 ```
-$ ssh -i ~path/file.pem user@000.000.000.000
+$ ssh -i ~path/file.pem user@172.31.0.0
 ```
 * Chmod the key:
 ```
