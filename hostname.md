@@ -7,7 +7,7 @@ $ sudo hostnamectl set-hostname webserver.mydomain.com
 ## To change the system hostname without a public DNS name
 * For Amazon Linux 2: Use the hostnamectl command to set your hostname to reflect the desired system hostname: (such as webserver)
 ```
-$ sudo hostnamectl set-hostname --static cardionomous-chile
+$ sudo hostnamectl set-hostname --static myhostname
 ```
 * Open the /etc/cloud/cloud.cfg and add the entry.
 ```
