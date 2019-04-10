@@ -2,19 +2,19 @@
 
 ## Choose instance
 ```
-T1, T2, T3, etc.
+T2, T3, C5, C5N, etc.
 ```
 ## Configure instance
 ```
-Number of instances, network, subnet, placement group, etc.
+Number of instances, network, subnet, placement group, elastic ip, monitoring, etc.
 ```
 ## Add storage
 ```
-Hdd/sdd settings, delete on termination checkbox.
+Hdd/sdd configuration, Delete when terminate checkbox.
 ```
 ## Tags
 ```
-Keys*
+A tag is a label that you assign to an AWS resource. Each tag consists of a key and an optional value, both of which you define. 
 ```
 ## Secerity groups
 ```
