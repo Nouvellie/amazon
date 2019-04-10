@@ -1,24 +1,15 @@
 # ELASTIC IP
 
 ## Associated address
-* First:
+* Create:
 ```
-First of all we create an elastic IP in the EC2 Dashboard, and then we associate the address with the instance that we choose.
+First we create an elastic IP in the EC2 Dashboard, and then we associate the address with the instance we choose.
 ```
-## VPC settings
-* VPC:
+* Behavior:
 ```
-It is created when the instance is launched.
+Can be released and then change instance, if not associated with an instance running additional charges can be generated.
 ```
-* Internet gateway:
+* Release the elastic ip:
 ```
-Must be created and attached to the VPC that we need.
-```
-* Network ACL and route table:
-```
-Associated to the vpc.
-```
-* Subnet:
-```
-Associated with the route table and vpc. Must be available in green state.
+If we release the elastic ip of the instance is automatically assigned a public ip.
 ```
