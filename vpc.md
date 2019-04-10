@@ -22,9 +22,9 @@
 ```
 * Route table:
 ```
-It's created with vpc. We have to associate the route table with the internet gateway created.
+It's created with vpc. We have to associate the route table with the created internet gateway.
 ```
 * Security group:
 ```
-Must be created associated to vpc main id.
+It must be created associated to the main id of the vpc.
 ```
