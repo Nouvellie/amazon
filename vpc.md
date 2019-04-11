@@ -28,3 +28,7 @@ It's created with vpc. We have to associate the route table with the created int
 ```
 It must be created associated to the main id of the vpc.
 ```
+* Public DNS:
+```
+VPC --> Edit DNS hostnames --> Yes.
+```
