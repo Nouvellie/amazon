@@ -9,7 +9,7 @@
 
 </p>
 
-<h4>Select AWS access type</h4>
+<h4>Select AWS access type:</h4>
 
 <p>
 
@@ -30,7 +30,7 @@ Programmatic access checkbox **ON**.
 
 <p>
 	
-*All CodeCommit actions*
+*All CodeCommit actions*<br>
 Access level:
 - List.
 - Read.
