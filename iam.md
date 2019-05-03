@@ -1,22 +1,5 @@
 <div>
 <h1>IAM</h1>
-<h2>Add user</h2>
-<h4>User name:</h4>
-
-<p>
-
-*user-devs*
-
-</p>
-
-<h4>Select AWS access type:</h4>
-
-<p>
-
-Programmatic access checkbox **ON**.
-
-</p>
-
 <h2>Create policy</h2>
 <h4>Service:</h4>
 
@@ -77,6 +60,23 @@ Access level:
 <p>
 
 *user-git*
+
+</p>
+
+<h2>Add user</h2>
+<h4>User name:</h4>
+
+<p>
+
+*user-devs*
+
+</p>
+
+<h4>Select AWS access type:</h4>
+
+<p>
+
+Programmatic access checkbox **ON**.
 
 </p>
 
