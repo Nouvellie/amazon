@@ -46,6 +46,23 @@ Access level:
 
 </p>
 
+<h2>Review policy</h2>
+<h4>Name:</h4>
+
+<p>
+	
+*user-git*
+
+</p>
+
+<h4>Description:</h4>
+
+<p>
+	
+*Grant all privileges to user-devs.*
+
+</p>
+
 <h2>Add user to group</h2>
 <h4>Create group:</h4>
 
@@ -55,6 +72,12 @@ Access level:
 
 </p>
 
-<h4></h4>
+<h4>Policy</h4>
+
+<p>
+
+*user-git*
+
+</p>
 
 </div>
