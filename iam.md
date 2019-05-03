@@ -30,7 +30,7 @@ Programmatic access checkbox **ON**.
 
 <p>
 	
-All CodeCommit actions.
+*All CodeCommit actions*
 Access level:
 - List.
 - Read.
@@ -38,11 +38,11 @@ Access level:
 
 </p>
 
-<h4>Service:</h4>
+<h4>Resources:</h4>
 
 <p>
 	
-*CodeCommit*
+*All resources*
 
 </p>
 
