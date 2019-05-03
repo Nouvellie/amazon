@@ -72,12 +72,16 @@ Access level:
 
 </p>
 
-<h4>Select AWS access type:</h4>
+<h4>Add user to a group:</h4>
 
 <p>
 
 Programmatic access checkbox **ON**.
 
 </p>
+
+<h2>Add user to a group</h2>
+
+*user-git*
 
 </div>
