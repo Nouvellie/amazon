@@ -5,10 +5,11 @@ This can be used in any case, but if the associated vpc is deleted the security 
 
 #### Inbound:
 
-
+```
 HTTP  -->  TCP  -->  80  --> IP
 SSH   -->  TCP  -->  22  --> IP
 MYSQL -->  TCP  --> 3306 --> IP
+```
 
 #### Outbound:
 
