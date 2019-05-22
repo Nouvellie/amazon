@@ -29,16 +29,16 @@ Access level:
 ## Add user to group
 #### Create group:
 
-**Group name:** <user>-git
+**Group name:** \<user>-git
 
 #### Policy
 
-*<user>-git*
+*\<user>-git*
 
 ## Add user
 #### User name:
 
-*<user>-devs*
+*\<user>-devs*
 
 #### Add user to a group:
 
@@ -46,4 +46,4 @@ Programmatic access checkbox **ON**.
 
 ## Add user to a group
 
-*<user>-git*
+*\<user>-git*
