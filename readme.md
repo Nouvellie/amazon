@@ -8,7 +8,7 @@
 - [Vpc.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/vpc.md)
 
 <br><br><p align="center">
-  <img width="75%" height="75%" src="https://github.com/Nouvellie/amazon/contents/img/amazon-web-services.png" alt="Amazon Web Services Logo">
+  <img width="75%" height="75%" src="https://github.com/Nouvellie/amazon/blob/amazon/contents/img/amazon-web-services.png" alt="Amazon Web Services Logo">
 </p>
 
 <br><br>
