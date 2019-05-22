@@ -2,7 +2,9 @@
 
 - [AMI-snapshot.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/ami-snapshots.md)
 - [Elastic IP.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/elastic-ip.md)
+- [Git Code Commit.](https://github.com/Nouvellie/amazon/blob/amazon/contents/git.md)
 - [Hostname.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/hostname.md)
+- [IAM.](https://github.com/Nouvellie/amazon/blob/amazon/contents/iam.md)
 - [Launch.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/launch.md)
 - [Use.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/use.md)
 - [Vpc.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/vpc.md)
