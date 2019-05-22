@@ -20,7 +20,7 @@ Access level:
 ## Review policy
 #### Name:
 
-*<user>-git*
+*\<user>-git*
 
 #### Description:
 
