@@ -1,6 +1,7 @@
 # CONTENTS
 
-- [AMI-snapshot.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/ami-snapshots.md)
+- [AMI Snapshot.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/ami-snapshots.md)
+- [Attach Volume](https://github.com/Nouvellie/amazon/blob/amazon/contents/attach-volume.md)
 - [Elastic IP.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/elastic-ip.md)
 - [Git Code Commit.](https://github.com/Nouvellie/amazon/blob/amazon/contents/git.md)
 - [Hostname.](https://github.com/Nouvellie/amazon-ec2/blob/amazon/contents/hostname.md)
