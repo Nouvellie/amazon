@@ -32,8 +32,8 @@ $ sudo mkdir /<custom>/<attach>
 $ sudo mount /dev/<nvme0n1> /<custom>/<attach>
 ```
 
-# To add permantly ssd to ec2
-## Steps
+## To add permantly ssd to ec2
+#### Steps:
 
 - Restart instances after mount volume.
 ```sh
@@ -42,16 +42,26 @@ $ sudo vim /etc/fstab
 UUID=<UUIDcode> /<pathmount> <type> defaults,nofail 0 2
 ```
 
-## Final
+#### Final:
 
 ```sh
 $ sudo umount /<pathmount>
 $ sudo mount -a
 ```
 
-## Restart and check
+#### Restart and check
 
 - Restart system.
 ```sh
 $ lsblk
+```
+
+## Resize
+
+Use a file system-specific command to resize each file system to the new volume capacity. For a file system other than the examples shown here, refer to the documentation for the file system for instructions.
+
+Use the resize2fs command to extend the file system on each volume:
+
+```sh
+$ sudo resize2fs /dev/<nvme0n1>
 ```
