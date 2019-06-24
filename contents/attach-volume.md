@@ -33,20 +33,25 @@ $ sudo mount /dev/<nvme0n1> /<custom>/<attach>
 ```
 
 # To add permantly ssd to ec2
-## Fstab conf
+## Steps
 
+- Restart instances after mount volume.
 ```sh
+$ sudo blkid
 $ sudo vim /etc/fstab
+UUID=<UUIDcode> /<pathmount> <type> defaults,nofail 0 2
 ```
 
-## [fstab]
+## Final
 
 ```sh
-/dev/<nvme0n1> /<custom>/<attach> ext4 errors=remount-ro 0 2
-```
-
-#### Check if the fstab file has any error:
-
-```sh
+$ sudo umount /<pathmount>
 $ sudo mount -a
+```
+
+## Restart and check
+
+- Restart system.
+```sh
+$ lsblk
 ```
